@@ -2,7 +2,7 @@ from os.path import join
 from os.path import split
 from unittest import TestCase
 
-from pip._vendor import six
+import six
 
 import ssdeep
 
