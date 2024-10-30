@@ -1,5 +1,10 @@
 from setuptools import setup
+import os
+import re
 
+REQUIREMENTS = [
+    "six"
+]
 setup(name='ssdeep-windows-32_64',
       version='0.0.1',
       description='Python wrapper for the ssdeep library with win 64 support',
